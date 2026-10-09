@@ -1,0 +1,12 @@
+price_Iphone = 124000.00;
+price_Samsung_S25 = 125000.00;
+qty_Iphone = 2;
+qty_Samsung_S25 = 3;
+total_price_Iphone = price_Iphone * qty_Iphone;
+total_price_Samsung_S25 = price_Samsung_S25 * qty_Samsung_S25;
+print("Total price of Iphone:", total_price_Iphone);
+print("Total price of Samsung S25:", total_price_Samsung_S25);
+discount_Iphone = 0.50 * total_price_Iphone;
+discount_Samsung_S25 = 0.45 * total_price_Samsung_S25;
+print("Discount on Iphone:", discount_Iphone);
+print("Discount on Samsung S25:", discount_Samsung_S25);
